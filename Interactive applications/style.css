@@ -1,0 +1,76 @@
+body{
+	text-align:center;
+	margin-left:0px;
+	margin-right:2px;
+}
+
+#container{
+	display:inline-block;
+}
+
+h1{
+	width: 100%;
+	border: 1px solid black;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:GhostWhite;
+	background-color: gold;
+	box-shadow: 0px -7px 35px 5px DarkOrange inset;
+}
+
+.offersLeft{
+	border: solid black;
+	border-width: 1px 2px 2px 2px;
+	margin-right: 25px;
+	margin-bottom:20px;
+	float: left;
+	border-radius:5px;
+	box-shadow: 7px 7px 25px -3px;
+	height: 427px;
+	width: 427px;
+}
+
+.offersRight{
+	height: 427px;
+	width: 427px;
+	border : 1px solid black;
+	border-width: 1px 2px 2px 2px;
+	margin-left: 25px;
+	margin-bottom:20px;
+	float: right;
+	border-radius:5px;
+	box-shadow: 7px 7px 25px -3px;
+}
+
+.myNav{
+	clear:both;
+	list-style:none;
+	padding-left: 0px;
+	box-shadow: 7px 7px 25px -3px;
+	border: 1px solid black;
+	border-radius:5px;
+}
+
+#middle{
+	border-bottom:1px solid black;
+	border-top:1px solid black;
+}
+
+.navList{
+	padding: 15px;
+	
+}
+
+.navList a{
+	text-decoration: none;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.myTextBox{
+	border: 1px solid black;
+	border-radius:5px;
+	box-shadow: 7px 7px 25px -3px;
+	
+}
+

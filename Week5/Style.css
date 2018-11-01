@@ -1,0 +1,30 @@
+div{
+    background-color: #bbbbff;
+    background-color: gray;
+    width: 35%;
+}
+img{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+
+}
+
+#first{
+    font-family: Verdana;
+    font-size: 15pt;
+}
+
+#second{
+    font-family: Broadway;
+    font-size: 13pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+#third{
+    font-family: Corbel;
+    font-size: 14pt;
+    font-style: italic;
+    text-align: right;
+}

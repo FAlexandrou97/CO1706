@@ -1,0 +1,30 @@
+nav{
+    display: inline-block;
+    background-color: #bbbbff;
+    width: 100%;
+}
+
+nav a{
+    float: left;
+    display: inline-block;
+    text-decoration: none;
+    border-right: 1px solid white;
+    padding: 16px;
+}
+
+nav a:hover{
+    background-color: white;
+}
+
+.dropdown-content{
+    display: none;
+}
+
+.dropdown-content a{
+    float: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}

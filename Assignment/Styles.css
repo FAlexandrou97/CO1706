@@ -14,3 +14,18 @@ header h1{
     position: fixed;
     top:25px;
 }
+
+.offers{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin:auto;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+main{
+    width: 100%;
+}

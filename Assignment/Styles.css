@@ -1,6 +1,7 @@
 body{
     text-align: center;
     font-family: sans-serif;
+    margin: 0px;
 }
 
 header h1{
@@ -14,6 +15,36 @@ header h1{
     position: fixed;
     top:25px;
 }
+header{
+    text-align: center;
+}
+
+#navBar{
+    display: inline-table;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: lightblue;
+
+    margin-left: 0px;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+#navBar li{
+    display: inline;
+    float: left;
+
+}
+
+#navBar li a{
+    padding: 4px 8px 4px 8px;
+    text-decoration: none;
+    width: 30%;
+}
+
+#navBar li a:active{
+    background-color: cornflowerblue;
+}
 
 .offers{
     border: 1px solid black;
@@ -21,7 +52,7 @@ header h1{
     margin:auto;
 }
 
-td{
+.offers td{
     border: 1px solid black;
     padding: 10px;
 }

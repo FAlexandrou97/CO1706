@@ -19,30 +19,22 @@ header{
     text-align: center;
 }
 
-#navBar{
-    display: inline-table;
-    list-style-type: none;
-    overflow: hidden;
-    background-color: lightblue;
-
-    margin-left: 0px;
+#navBar {
     margin-bottom: 60px;
-    width: 100%;
+    margin-top: 15px;
 }
 
-#navBar li{
-    display: inline;
-    float: left;
-
-}
-
-#navBar li a{
-    padding: 4px 8px 4px 8px;
+#navBar a{
+    width: 33%;
+    display: inline-block;
+    margin: -3px;
+    padding-top:10px;
+    padding-bottom: 10px;
     text-decoration: none;
-    width: 30%;
+    border: 1px solid black;
 }
 
-#navBar li a:active{
+#navBar a.current{
     background-color: cornflowerblue;
 }
 
@@ -58,5 +50,5 @@ header{
 }
 
 main{
-    width: 100%;
+
 }

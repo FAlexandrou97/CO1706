@@ -1,0 +1,71 @@
+html, body {
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*background image source: https://www.toptal.com/designers/subtlepatterns/*/
+body{
+  background-image: url(https://vesta.uclan.ac.uk/~falexandrou/images/background.png);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.container {
+  position: relative;
+  height: inherit;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 60%;
+}
+
+.navbar{
+  z-index: 1; /*Used to hide content when using navbar*/
+}
+
+.card{
+  width: 18rem;
+}
+
+@media (max-width: 767.98px) {
+  .player{
+    width: 140px;
+  }
+ }
+
+ @media (max-height: 568.95px){
+   #isMember{
+     margin-bottom: 0.2rem;
+   }
+ }
+
+.justify-content-center{
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.fixed-bottom{
+  margin-bottom: 15px;
+}
+
+.loginHeader{
+  position: absolute;
+  top: 20%;
+  left: 52%;
+  transform: translate(-50%,-50%);
+  width: 18rem;
+}
+
+#albumCol{
+  top: 0;
+}
+
+.comment{
+  overflow-wrap: break-word;
+}
